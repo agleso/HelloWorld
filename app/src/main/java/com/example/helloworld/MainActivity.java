@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onButtonPressed(View view) {
         if (mNameEditText.getText().length() == 0) {
-            mHelloTextView.setText("Hello Kitty!");
+            mHelloTextView.setText("Hello Kitt!");
         } else {
             mHelloTextView.setText("Привет, " + mNameEditText.getText());
         }
